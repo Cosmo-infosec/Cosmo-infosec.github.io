@@ -1,1 +1,0 @@
-# Cosmo-infosec.github.io

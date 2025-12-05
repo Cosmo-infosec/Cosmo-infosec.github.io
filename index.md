@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Accueil
+title: home
+permalink: /index
 ---
 
 # Welcome
