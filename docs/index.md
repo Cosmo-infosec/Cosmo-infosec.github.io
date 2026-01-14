@@ -8,4 +8,4 @@ permalink: /index
 
 - [About](about.md)
 - [Contact](contact.md)
-- [Micro cURL cheatsheet](cURL short cheatsheet)
+- [Passive recon](Passive)
