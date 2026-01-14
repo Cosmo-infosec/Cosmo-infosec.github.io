@@ -1,10 +1,25 @@
 ---
 layout: default
 title: 1
-permalink: /passive
+permalink: /passiverecon
 ---
 
-**------------ WEB APPLICATION ------------**
+**------------ DOMAIN OR IP ADDRESS PASSIVE RECON ------------**
+
+Records and properties:
+* [ ] Find domain's owner, registrar and contacts informations - Service : who.is
+* [ ] Find IP, domains, subdomains records for target  - Tool : dig
+
+Subdomain discovery :
+* [ ] Discover potential subdomains - Tool : subfinder
+* [ ] Discover referenced subdomains - Google dork : "site:\*.domain.com -site:www.domain.com"
+
+Services discovery :
+* [ ] Discover exposed services for a domain name or IP - Service : shodan.io
+
+**------------ WEB APPLICATION PASSIVE RECON ------------**
+
+**ZERO-TOUCH**
 
 Technology discovery :
 - [ ] Discover underlying technologies for a web application - Tool : Wappalyzer
@@ -21,10 +36,12 @@ Endpoints discovery :
 Zero-touch crawling :
 * [ ] Manually crawl the web application - Tool : BurpSuite and it's proxy enabled with the "JSLinkFinder" extension activated.
 
+**LIGHT-TOUCH**
+
 Light-touch crawling :
 * [ ] Manually crawl through previous web application versions and pages - Service : Waybackmachine.
 
-Public files :
+Public files :cat ##""
 * [ ] Scrape robots.txt
 * [ ] Scrape sitemap.xml and sitemap files
 * [ ] Search for .txt files - Google dork : 'site:$TARGET filetype:txt'
