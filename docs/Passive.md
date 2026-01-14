@@ -5,19 +5,21 @@ permalink: /passiverecon
 ---
 
 <details>
-  <summary><strong> DOMAIN OR IP ADDRESS PASSIVE RECON </strong></summary>
-  
-Records and properties:
-* [ ] Find domain's owner, registrar and contacts informations - Service : who.is
-* [ ] Find IP, domains, subdomains records for target  - Tool : dig
-
-Subdomain discovery :
-* [ ] Discover potential subdomains - Tool : subfinder
-* [ ] Discover referenced subdomains - Google dork : "site:\*.domain.com -site:www.domain.com"
-
-Services discovery :
-* [ ] Discover exposed services for a domain name or IP - Service : shodan.io
-
+<summary><strong> DOMAIN OR IP ADDRESS PASSIVE RECON </strong></summary>
+<strong> Records and properties: </strong>
+<ul>
+<li> [ ] Find domain's owner, registrar and contacts informations - Service : who.is </li>
+<li> [ ] Find IP, domains, subdomains records for target  - Tool : dig </li>
+</ul>
+<strong> Subdomain discovery : </strong>
+<ul>
+<li> [ ] Discover potential subdomains - Tool : subfinder </li>
+<li> [ ] Discover referenced subdomains - Google dork : "site:\*.domain.com -site:www.domain.com" </li>
+</ul>
+<strong> Services discovery : </strong>
+<ul>
+<li> [ ] Discover exposed services for a domain name or IP - Service : shodan.io </li>
+</ul>
 </details>
 
 **------------ DOMAIN OR IP ADDRESS PASSIVE RECON ------------**
