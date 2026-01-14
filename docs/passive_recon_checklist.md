@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 1
-permalink: /passiverecon
+title: Passive recon checklist
+permalink: /passive_recon_checklist
 ---
 
 <details>
