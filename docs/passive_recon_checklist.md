@@ -5,7 +5,7 @@ permalink: /passive_recon_checklist
 ---
 
 <details>
-	<summary><strong> DOMAIN OR IP ADDRESS PASSIVE RECON </strong></summary>
+	<summary><span style="color:#2ecc71;"><strong> DOMAIN OR IP ADDRESS PASSIVE RECON </strong></span></summary>
 		<hr>
 		<strong> Records and properties: </strong>
 		<ul>
@@ -24,7 +24,7 @@ permalink: /passive_recon_checklist
 </details>
 <hr>
 <details>
-	<summary><strong> WEB APPLICATION PASSIVE RECON </strong></summary>
+	<summary><span style="color:#3498db;"><strong> WEB APPLICATION PASSIVE RECON </strong></span></summary>
 	<hr>
 	<details>
 		<summary><strong> ZERO-TOUCH </strong></summary>
