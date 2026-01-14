@@ -4,6 +4,22 @@ title: 1
 permalink: /passiverecon
 ---
 
+<details>
+  <summary><strong> DOMAIN OR IP ADDRESS PASSIVE RECON </strong></summary>
+  
+Records and properties:
+* [ ] Find domain's owner, registrar and contacts informations - Service : who.is
+* [ ] Find IP, domains, subdomains records for target  - Tool : dig
+
+Subdomain discovery :
+* [ ] Discover potential subdomains - Tool : subfinder
+* [ ] Discover referenced subdomains - Google dork : "site:\*.domain.com -site:www.domain.com"
+
+Services discovery :
+* [ ] Discover exposed services for a domain name or IP - Service : shodan.io
+
+</details>
+
 **------------ DOMAIN OR IP ADDRESS PASSIVE RECON ------------**
 
 Records and properties:
@@ -41,7 +57,7 @@ Zero-touch crawling :
 Light-touch crawling :
 * [ ] Manually crawl through previous web application versions and pages - Service : Waybackmachine.
 
-Public files :cat ##""
+Public files :
 * [ ] Scrape robots.txt
 * [ ] Scrape sitemap.xml and sitemap files
 * [ ] Search for .txt files - Google dork : 'site:$TARGET filetype:txt'
